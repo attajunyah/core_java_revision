@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 /**
    This program simulates a vending machine that gives change.
+   Problem Statement Suppose you are asked to write a program that simulates a vending machine. 
+   A customer selects an item for purchase and inserts a bill into the vending machine. 
+   The vending machine dispenses the purchased item and gives change. 
+   We will assume that all item prices are multiples of 25 cents, and the machine gives all change in dollar coins and quarters.
+   Your task is to compute how many coins of each type to return.
 */
 public class VendingMachine
 {
