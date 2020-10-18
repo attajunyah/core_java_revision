@@ -1,4 +1,4 @@
-// Complete the following program to count all vowels in a word.
+// Complete the following program to count all vowels in a word
 
 package com.corejava;
 
