@@ -1,3 +1,5 @@
+// Complete the following program to count all vowels in a word.
+
 package com.corejava;
 
 import java.util.Scanner;
