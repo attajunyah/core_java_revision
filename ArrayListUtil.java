@@ -27,6 +27,26 @@ public class ArrayListUtil
       
    }
    
+   /**
+	   Gets all strings from an array list of a given length.
+	   @param words an array list of strings
+	   @param wordLength the length of the words to get
+	   @return an array list with the words of length wordLength
+	*/
+	public static ArrayList<String> wordsOfLength(ArrayList<String> words, int wordLength)
+	{
+	   ArrayList<String> result = new ArrayList<String>();
+	   for (int i = 0; i < words.size(); i++)
+	   {
+		   String word = words.get(i);
+		   if (word.length() == wordLength)
+		   {
+			   result.add(words.get(i));
+		   }
+	   }
+	   return result;
+	}
+   
    public static void main (String[] args)
    {
 	   ArrayList<String> words = new ArrayList<String>();
@@ -49,5 +69,7 @@ public class ArrayListUtil
 	   
 	   
 	   System.out.println(findAll(words, "wood"));
+	   
+	   System.out.println(wordsOfLength(words, 5));
    }
 }
