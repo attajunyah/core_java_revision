@@ -12,6 +12,8 @@ public class CounterDemo
 	   tally.count();
 	   int result = tally.getValue();
 	   System.out.println("Value: " + result);
+	   tally.reset();
+	   tally.count();
 	   tally.count();
 	   tally.count();
 	   result = tally.getValue();
