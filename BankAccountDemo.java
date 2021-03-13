@@ -3,6 +3,7 @@ package com.corejava;
 public class BankAccountDemo {
 	private double balance;
 	
+	// Constructor
 	public BankAccountDemo()
 	{
 		balance = 0;
