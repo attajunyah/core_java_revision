@@ -12,8 +12,6 @@ public class ComputeArea {
 		 double kilometers = miles * KILOMETERS_PER_MILE;
 		 System.out.println(kilometers);
 		 
-		 
-		
 		// Declare radius and area as variables
 		double radius;
 		double area;
